@@ -1,1 +1,1 @@
-[Typing SVG](https://raw.githubusercontent.com/apetenchea/apetenchea/main/examples.svg)
+![Typing SVG](https://raw.githubusercontent.com/apetenchea/apetenchea/main/examples.svg)
