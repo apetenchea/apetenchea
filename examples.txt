@@ -1,0 +1,5 @@
+find . -iname "foo.txt"  # find a file by name
+du -sh * | sort -rh | head -10  # list top ten largest files/directories
+python -m http.server 8000  # start a simple http server
+curl ifconfig.me  # print your public IP address
+rg "foo" -g "*.cpp"  # recursively search for the string "foo" in cpp files
