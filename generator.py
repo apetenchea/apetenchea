@@ -2,7 +2,10 @@ import argparse
 
 
 def generate_svg(examples, color, font_size, width, height, dur):
-    comment = '<!-- https://github.com/DenverCoder1/readme-typing-svg/ -->'
+    """
+    Inspired by https://github.com/DenverCoder1/readme-typing-svg/
+    """
+
     svg_tag = f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {width} {height}" style="background-color: #00000000;" width="{width}px" height="{height}x">'
     style = """
     <style>
@@ -15,7 +18,6 @@ def generate_svg(examples, color, font_size, width, height, dur):
         }
     </style>
     """
-    print(comment)
     print(svg_tag)
     print(style)
     for idx, e in enumerate(examples):
@@ -41,7 +43,8 @@ def generate_svg(examples, color, font_size, width, height, dur):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         prog='generator',
-        description="Generates an SVG file that appears as if you're writing text"
+        description="Generates an SVG file that appears as if you're writing text",
+        usage="python generator.py > examples.svg"
     )
     parser.add_argument('--examples', type=argparse.FileType('r'), help='examples file', default='examples.txt')
     parser.add_argument('--color', type=str, help='text color in hex', default='#2ABB89')
