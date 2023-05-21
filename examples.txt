@@ -1,3 +1,4 @@
+ffmpeg -i input.mp4 -vf "fps=20" -c:v gif output.gif  # convert video to gif
 find . -iname "foo.txt"  # find a file by name
 du -sh * | sort -rh | head -10  # list top ten largest files/directories
 python -m http.server 8000  # start a simple http server
