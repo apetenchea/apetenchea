@@ -1,1 +1,1 @@
-[![Typing SVG](https://raw.githubusercontent.com/apetenchea/apetenchea/main/bash.svg)](https://github.com/apetenchea/apetenchea/tree/main)
+[![Typing SVG](https://raw.githubusercontent.com/apetenchea/apetenchea/main/StarWars.gif)](https://github.com/apetenchea/apetenchea/tree/main)
