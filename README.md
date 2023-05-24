@@ -1,1 +1,3 @@
-[![Typing SVG](https://raw.githubusercontent.com/apetenchea/apetenchea/main/StarWars.gif)](https://github.com/apetenchea/apetenchea/tree/main)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/apetenchea/apetenchea/main/StarWars.gif" alt="animated" />
+</p>
