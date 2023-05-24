@@ -1,0 +1,64 @@
+ls -l
+pwd
+cd /tmp
+touch newfile.txt
+echo "Hello, World!" > hello.txt
+cat hello.txt
+more largefile.txt
+less largefile.txt
+head largefile.txt
+tail largefile.txt
+cp hello.txt hello2.txt
+mv hello2.txt hello3.txt
+rm hello3.txt
+find / -name "myfile.txt"
+grep "Hello" largefile.txt
+ps aux
+top
+killall firefox
+shutdown -h now
+reboot
+history
+!10
+date
+cal
+uptime
+w
+whoami
+id
+last
+df -h
+du -sh *
+free -m
+uname -a
+lsblk
+mount | column -t
+lscpu
+lsusb
+lspci
+ip addr
+ifconfig
+netstat -ntlp
+ss -tuln
+ping google.com
+dig google.com
+nslookup google.com
+traceroute google.com
+wget http://example.com
+curl http://example.com
+ssh user@hostname
+scp file.txt user@hostname:/path
+rsync -avz /path1/ user@hostname:/path2/
+tar -czvf archive.tar.gz /path
+tar -xzvf archive.tar.gz
+gzip file.txt
+gunzip file.txt.gz
+zip archive.zip file.txt
+unzip archive.zip
+find / -type f -name "*.txt" -exec rm -f {} \;
+for i in {1..10}; do echo $i; done
+alias ll="ls -l"
+crontab -e
+apt-get update
+apt-get upgrade
+chmod +x script.sh
